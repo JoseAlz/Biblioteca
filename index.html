@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Almendra+SC&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Amarante&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Biblioteca</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="library-title">Mi Biblioteca</h1>
+      <div id="sort-div">
+        <p id="sort-text"></p>
+        <select id="sort-select">
+          <option value="" selected>Ordenar La Biblioteca</option>
+          <option value="title-down">Título abajo</option>
+          <option value="title-up">Subir Titulo</option>
+          <option value="author-down">Autor abajo</option>
+          <option value="author-up">Autor arriba</option>
+          <option value="nb-pages-down">Nb Páginas hacia abajo</option>
+          <option value="nb-pages-up">Nb Páginas hacia arriba</option>
+          <option value="likes">Me gusta primero</option>
+          <option value="dislikes">No me gusta primero</option>
+          <option value="read">Lea primero</option>
+          <option value="unread">No leído primero</option>
+        </select>
+      </div>
+    </header>
+
+    <main id="library-list">
+      <ul id="books-list"></ul>
+    </main>
+
+    <footer id="footer">
+      <p>
+        <a href="https://github.com/JoseAlz/Biblioteca" target="_blank"
+          >Fifth Odin project</a
+        >
+         &copy 2022
+        <a href="https://github.com/JoseAlz" target="_blank"
+          >JoseAlz</a
+        >
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
